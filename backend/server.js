@@ -3,6 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const FormDataModel = require ('./FormData');
 
+mongoose.connect('mongodb+srv://Rudrani26:RudC3825@cluster0.nfq7mjb.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp');
 
 const app = express();
 app.use(express.json());

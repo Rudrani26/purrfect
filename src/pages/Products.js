@@ -7,7 +7,6 @@ import beds from '../images/beds.jpg';
 import hygiene from '../images/hygiene.jpg';
 import accesso from '../images/accessories.jpg';
 import toys from '../images/toys.jpg';
-import bg from '../images/bg3.png';
 import Secheader from "./common/Secondaryheader";
 
 const FlexCard = (props) => {

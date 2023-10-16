@@ -17,6 +17,7 @@ a {
 li {
     list-style: none;
 }
+
 *{
 	box-sizing: border-box;
 }
@@ -42,7 +43,7 @@ html {
 }
 
 .sec_hdr {
-  background-color: #F4717C;
+  background-color: #85C6D7;
 } 
 
 /* FlexCard.css */

@@ -18,7 +18,7 @@ const Login = () => {
             if(result.data === "Success"){
                 console.log("Login Success");
                 alert('Login successful!')
-                navigate('/App.js');
+                navigate('/');
             }
             else{
                 alert('Incorrect password! Please try again.');
@@ -30,8 +30,8 @@ const Login = () => {
 
     return (
         <div>
-            <div className="d-flex justify-content-center align-items-center text-center vh-100" style= {{backgroundImage : "linear-gradient(#00d5ff,#0095ff,rgba(93,0,255,.555))"}}>
-                <div className="bg-white p-3 rounded" style={{width : '40%'}}>
+            <div className="d-flex justify-content-center align-items-center text-center vh-100" style= {{backgroundColor: "#2F2F46"}}>
+                <div className="bg-white p-4 rounded" style={{width : '40%'}}>
                     <h2 className='mb-3 text-primary'>Login</h2>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-3 text-start">

@@ -1,5 +1,4 @@
 import React from "react";
-import web from "../images/logo.png"
 import product1 from "../images/products/99.png"
 
 const Home = () => {
@@ -8,10 +7,10 @@ const Home = () => {
 		<section className="sec_1"> 
 			<div className="header_height sec_bg d-flex align-items-center">
 				<div className="container">
-					<div className="col-12 col-md-9 col-lg-7 py-5">
+					<div className="col-12 col-md-9 col-lg-9 py-5">
 						<h1 className="hdrcolor">Welcome to Purrfect</h1>
 						<p className="text-black lead">“An animal’s eyes have the power to speak a great language.” - Martin Buber</p>
-						<button className="btn btn-lg col-lg-4 col-6 btn_custom btn_shadow">Our Services</button>
+						<button className="btn btn-lg col-lg-3 col-6 btn_custom btn_shadow">Our Services</button>
 					</div>
 				</div>
 			</div>
@@ -20,29 +19,29 @@ const Home = () => {
 		<section> 
 			<div className="container mx-auto py-5">
 				<div className="mb-4 text-center">
-					<p className="display-6 mb-1">What we do...</p>
-					<p className="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p className="display-6 mb-1">What we do</p>
+					<p className="text-muted">We offer a one-stop solution where Pets and People Unite in Happiness</p>
 				</div>
 				<div className="row gy-5 d-flex align-items-center justify-content-evenly mt-0">
 					<div className="col-md-4 col-lg-3 text-center">
-						<div className="box_border position-relative rounded pt-5 pb-3 px-3">
+						<div className="box_border position-relative rounded pt-4 pb-3 px-3">
 							<div className="shp"></div>
-							<p className="mb-2 mt-4">Brand Building</p>
-							<p className="text-muted text-left text-xl-center text-lg-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p className="mb-3 mt-4">Complete Pet Care Solutions</p>
+							<p className="text-muted text-left text-xl-center text-lg-center">Purrfect offers complete pet care solutions, including health guidance, training, and a variety of pet products.</p>
 						</div>
 					</div>
 					<div className="col-md-4 col-lg-3 text-center">
-						<div className="box_border position-relative rounded pt-5 pb-3 px-3">
+						<div className="box_border position-relative rounded pt-4 pb-3 px-3">
 							<div className="shp"></div>
-							<p className="mb-2 mt-4">Pixel Perfect Designing</p>
-							<p className="text-muted text-left text-xl-center text-lg-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p className="mb-3 mt-4">Enriching Pet and Owner Lives</p>
+							<p className="text-muted text-left text-xl-center text-lg-center">Our goal is to enrich pet and owner lives through adoption, vet appointments, and a thriving pet community.</p>
 						</div>
 					</div>
 					<div className="col-md-4 col-lg-3 text-center">
-						<div className="box_border position-relative rounded pt-5 pb-3 px-3">
+						<div className="box_border position-relative rounded pt-4 pb-3 px-3">
 							<div className="shp"></div>
-							<p className="mb-2 mt-4">Marketing</p>
-							<p className="text-muted text-left text-xl-center text-lg-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p className="mb-3 mt-4">Simplified Pet Parenting</p>
+							<p className="text-muted text-left text-xl-center text-lg-center">We're committed to simplifying your pet parenting journey with a one-stop destination for all your furry friend's needs.</p>
 						</div>
 					</div>
 				</div>
@@ -52,10 +51,10 @@ const Home = () => {
 		<section className="sec_2"> 
 			<div className="sec_bg py-5">
 				<div className="container d-flex justify-content-center align-items-center">
-					<div className="col-12 col-md-9 col-lg-6 text-center py-3">
-						<p className="display-6 mb-1 text-white">Our Brand Partner</p>
-						<img className="image-fluid py-3" alt="brand" width="40%" src={web} />
-						<p className="text-white lead">Lorem Ipsum is simply dummy text of the printing industry.</p>
+					<div className="col-12 col-md-9 col-lg-6 text-center py-4">
+						{/* <p className="display-6 mb-1 text-white">Our Brand Partner</p> */}
+						{/* <img className="image-fluid py-3" alt="brand" width="40%" src={web} /> */}
+						<p className="text-black lead">Making Pets Smile, One Service at a Time</p>
 					</div>
 				</div>
 			</div>
@@ -64,7 +63,7 @@ const Home = () => {
 		<section> 
 			<div className="container mx-auto py-5">
 				<div className="mb-5 text-center">
-					<p className="display-6 mb-1">Our Products</p>
+					<p className="display-6 mb-1">Brands We Trust</p>
 					<p className="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 				<div className="row gy-3 d-flex align-items-center justify-content-evenly">
@@ -96,30 +95,16 @@ const Home = () => {
 			</div>
 		</section>
 
-		<section className="bg-light"> 
+		{/* <section className="bg-light"> 
 			<div className="container mx-auto py-5">
 				<div className="mb-5 text-center">
 					<p className="display-6 mb-1">We Worked With...</p>
 					<p className="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
-				<div className="row gy-2 brands_logo d-flex align-items-center justify-content-evenly col-md-7 m-auto">
-					<div className="col-md-3 col-4 col-lg-4 text-center">
-						{/* <img className="img-fluid" alt="company1" src={work1} /> */}
-					</div>
-					<div className="col-md-3 col-4 col-lg-4 text-center">
-						{/* <img className="img-fluid" alt="company2" src={work2} /> */}
-					</div>
-					<div className="col-md-3 col-4 col-lg-4 text-center">
-						{/* <img className="img-fluid" alt="company3" src={work3} /> */}
-					</div>
-					<div className="col-md-3 col-4 col-lg-4 text-center">
-						{/* <img className="img-fluid" alt="company4" src={work4} /> */}
-					</div>
-				</div>
 			</div>
-		</section>
+		</section> */}
 
-		<section> 
+		<section className="sec_5"> 
 			<div className="py-5">
 				<div className="container d-flex justify-content-center align-items-center">
 					<div className="col-12 col-md-9 col-lg-6 py-5 text-center">

@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap");
-/* 
-@import "../../node_modules/bootstrap/scss/_functions.scss";
-@import "../../node_modules/bootstrap/scss/_variables.scss";
-@import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss"; */
 
 * {
   margin: 0;
@@ -15,49 +11,62 @@ html {
 }
 
 /* BUTTON-DEFAULT */
-
 .btn:focus {
   outline: 0 !important;
   box-shadow: none !important;
 }
 
-/* NAVBAR-DEFAULT */
+/* Default styles for the navbar */
+.navbar {
+  background-color: transparent;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
 
-.navigation_bar {
+/* Scrolled styles for the navbar */
+.navbar.scrolled {
+  background-color: black;
+  color: white;
+}
 
-    @include media-breakpoint-up(lg) {
-      .navscroll.scrolled {
-          background-color: #121212 !important;
-          transition: background-color 400ms linear;
-    }
-  }
+/* Button styles when clicked */
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  color: #ff4c00;
+}
 
-    @include media-breakpoint-down(md) {
-      .navscroll {
-        background-color: #121212 !important;
-    }
-  }
+.navbar-toggler:focus {
+  box-shadow: none;
+  color: #ff4c00;
+}
 
-  @include media-breakpoint-between(md, lg) {
-      .navscroll {
-        background-color: #121212 !important;
-    }
-  }
-  
-  .navbar-light {
-    .navbar-toggler {
-      border-color: transparent !important;
-      &:focus {
-        box-shadow: none !important;
-      }
-    }
-    .navbar-nav .nav-link {
-      color: rgb(0, 0, 0) !important;
-      &:focus {
-        color: #ff4c00 !important;
-      }
-    }
-  }
+.navbar-toggler:hover {
+  background-color: #ff4c00;
+}
+
+/* Active link styles */
+.navbar-nav .nav-item.active .nav-link {
+  color: #ff4c00;
+}
+
+/* Nav item text styles for the navbar when scrolled */
+.navbar.scrolled .navbar-nav .nav-link {
+  color: white;
+}
+
+/* Nav item styles when clicked */
+.navbar .navbar-nav .nav-item .nav-link:active {
+  color: #ff4c00;
+}
+
+/* Remove the default blue outline from focused links */
+.nav-link:focus {
+  outline: none;
+  color: #ff4c00;
 }
 
 footer {
@@ -69,15 +78,6 @@ footer {
   margin-left: 700px;
 }
 
-/* Add your regular navbar styles here */
-
-.navbar.scrolled {
-  background-color: black; /* Change to your desired background color */
-  transition: background-color 0.3s; /* Add a smooth transition effect */
-  color: #ececec;
-}
-
-
 /* VARIABLES & MIXINS */
 background-image {
   background-repeat: no-repeat;
@@ -85,8 +85,9 @@ background-image {
 }
 
 .hdrcolor {
-  color: #35354E;
+  color: #ff4c00;
   font-weight: 800;
+  font-size: 80px;
 }
 
 .btn_custom {
@@ -101,18 +102,29 @@ background-image {
 }
 
 .box_border {
-  border: solid 1px #ececec !important;
+  border: solid 3px #ececec !important;
 }
 
-/* .sec_bg {
-  background: rgba(0,0,0,.4);
-} */
+.sec_2 {
+  background: #F4717C;
+
+  .text-black{
+    font-size: 50px;
+  }
+}
+
+.sec_5 {
+  background: #F4717C;
+
+  .text-black{
+    font-size: 50px;
+  }
+}
 
 .secondary_header {
   height: 300px;
   width: 100%;
 }
-
 
 /* HOME PAGE */
 
@@ -122,20 +134,20 @@ background-image {
     height: 100vh;
     background-color: #FEFAEF;
   }
+
+  .text-black {
+    font-size: 25px;
+  }
 }
 
-/* .sec_2 {
-  background-image: url("../images/22.jpg");
-  @include background-image;
-} */
 
 .brands_logo div {
   max-width: 150px !important;
 }
 
 .shp {
-  width: 84px;
-  height: 84px;
+  width: 70px;
+  height: 70px;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   text-align: center;
   line-height: 84px;

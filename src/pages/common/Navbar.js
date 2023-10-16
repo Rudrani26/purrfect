@@ -42,7 +42,7 @@ const Navbar = () => {
 				  </button>
 				  <div className="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul className="navbar-nav ml-auto">
-				      <li className="nav-item active">
+				      <li className="nav-item">
 				        <NavLink exact className="nav-link" to="/"><span className="d-lg-none d-xl-none mr-3"></span>Home<span className="sr-only"></span></NavLink>
 				      </li>
 				      <li className="nav-item">
@@ -54,9 +54,9 @@ const Navbar = () => {
 					  <li className="nav-item">
 				        <NavLink exact className="nav-link" to="/products"><span className="d-lg-none d-xl-none mr-3"></span>Products</NavLink>
 				      </li>
-				      <li className="nav-item">
+				      {/* <li className="nav-item">
 				        <NavLink exact className="nav-link" to="/about"><span className="d-lg-none d-xl-none mr-3"></span>About</NavLink>
-				      </li>
+				      </li> */}
 				      <li className="nav-item">
 				        <NavLink exact className="nav-link" to="/contact"><span className="d-lg-none d-xl-none mr-3"></span>Contact</NavLink>
 				      </li>
