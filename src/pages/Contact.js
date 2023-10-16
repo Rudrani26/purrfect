@@ -1,8 +1,6 @@
 import React from "react";
 import Secheader from "./common/Secondaryheader"
-// import CallOutlinedIcon from '@material-ui/icons/CallOutlined';
-// import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
-// import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
+import contact from "../images/products/contact.jpg"
 
 const Contact = () => {
 	return (
@@ -10,7 +8,7 @@ const Contact = () => {
 
 			<Secheader 
 				sectitle="Get In Touch" 
-				secdesc="Lorem Ipsum is simply random text." 
+				// secdesc="Lorem Ipsum is simply random text." 
 			/>
 
 			<section>
@@ -37,23 +35,24 @@ const Contact = () => {
 
 				<div className="col-md-6 d-flex align-items-center order-lg-1 order-md-2 flex-column py-5">
 					<div className="row col-12">
-						<div className="col-md-6">
-							<span className="lead mb-3">Support</span>
+						<div className="col-md-9">
+							{/* <span className="lead mb-3">Support</span> */}
 							<p className="small">
-								Get help with all lorem ipsum products.<br/><br/>
-								<span className="m-2 ml-0 hdrcolor"></span>+4654664546<br/><br/>
-								<span className="m-2 ml-0 hdrcolor"></span>sample@example.com<br/><br/>
-								<span className="m-2 ml-0 hdrcolor"></span>New York, USA
+								{/* Get help with all lorem ipsum products.<br/><br/>
+								<span className="m-2 ml-0 hdrcolor"></span>+4654664546<br/>
+								<span className="m-2 ml-0 hdrcolor"></span>sample@example.com<br/>
+								<span className="m-2 ml-0 hdrcolor"></span>New York, USA */}
+								<img className="img-fluid" alt="contactUs" src={contact} />
 							</p>
 
 						</div>
 						<div className="col-md-6">
-							<span className="lead mb-3">Sales</span>
-							<p className="small">Purchase lorem ipsum products.<br/><br/>
+							{/* <span className="lead mb-3">Sales</span> */}
+							{/* <p className="small">Purchase lorem ipsum products.<br/><br/>
 								<span className="m-2 ml-0 hdrcolor"></span>+4345335546<br/><br/>
 								<span className="m-2 ml-0 hdrcolor"></span>demo@example.com<br/><br/>
 								<span className="m-2 ml-0 hdrcolor"></span>New York, USA
-							</p>
+							</p> */}
 						</div>
 					</div>
 				</div>

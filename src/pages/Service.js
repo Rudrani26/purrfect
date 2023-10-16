@@ -5,17 +5,17 @@ import Data from "../data/Servicesdata";
 
 const Scards = (props) => {
 	return (
-	  <div className="col-md-4 col-lg-4 mb-3 text-center">
+	  <div className="col-md-4 col-lg-4 mb-4 text-center">
 		{/* Wrap the card content with NavLink */}
 		<NavLink to={props.to} className="text-decoration-none">
 		  <div className="box_border col-lg-9 p-3 pt-4 m-auto rounded">
-			<img
+			{/* <img
 			  src={props.scardimage}
 			  className="img-fluid mb-2"
 			  alt="cards"
 			  width="20%"
-			/>
-			<p className="my-2">{props.scardtitle}</p>
+			/> */}
+			<p className="my-3">{props.scardtitle}</p>
 			<p className="text-muted text-left text-xl-center text-lg-center">
 			  {props.scarddesc}
 			</p>
@@ -44,7 +44,7 @@ const Service = () => {
 						{
 							Data.map((val, ind) => {
 								return <Scards key={ind}
-									scardimage={val.scardimage}
+									// scardimage={val.scardimage}
 									scardtitle={val.scardtitle}
 									scarddesc={val.scarddesc}
 									to={val.to}

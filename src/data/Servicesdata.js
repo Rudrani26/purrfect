@@ -2,44 +2,44 @@ const Data = [
 
 	{
 		// scardimage: ideas,
-		scardtitle : "Ideas into business",
-		scarddesc: "It is a long established fact that a reader will be distracted by the readable content.",
-		to: "/products",
+		scardtitle : "Health and Nutrition",
+		scarddesc: "Expert guidance for your pet's well-being, plus personalised recommendations.",
+		to: "/health",
 	},
 
 	{
 		// scardimage: marketing,
-		scardtitle : "Digital Marketing",
-		scarddesc: "It is a long established fact that a reader will be distracted by the readable content.",
-		to: "/route-1",
+		scardtitle : "Training & Behavior",
+		scarddesc: "Unlock the secrets of pet behavior, explore insightful blogs, and find training tips.",
+		to: "/",
 	},
 
 	{
 		// scardimage: graphic,
-		scardtitle : "Graphic Designing",
-		scarddesc: "It is a long established fact that a reader will be distracted by the readable content.",
-		to: "/route-1",
+		scardtitle : "Pet Products",
+		scarddesc: "Shop the finest pet products, from toys to treats, and choose your Purrfect Pick.",
+		to: "/products",
 	},
 
 	{
 		// scardimage: product,
-		scardtitle : "Product Building",
-		scarddesc: "It is a long established fact that a reader will be distracted by the readable content.",
-		to: "/route-1",
+		scardtitle : "Pet Adoption",
+		scarddesc: " Discover the joy of adoption, explore about adorable pets in need of a home.",
+		to: "/",
 	},
 
 	{
 		// scardimage: security,
-		scardtitle : "Data Security",
-		scarddesc: "It is a long established fact that a reader will be distracted by the readable content.",
-		to: "/route-1",
+		scardtitle : "Appointments",
+		scarddesc: "Schedule vet appointments hassle-free and keep your pet's health in check.",
+		to: "/",
 	},
 
 	{
 		// scardimage: ecommerce,
-		scardtitle : "Building e-commerce",
-		scarddesc: "It is a long established fact that a reader will be distracted by the readable content.",
-		to: "/route-1",
+		scardtitle : "Events & Activities",
+		scarddesc: "Stay updated on pet-friendly events and join the vibrant pet-loving community.",
+		to: "/",
 	},
 
 ];

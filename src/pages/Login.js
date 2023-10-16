@@ -30,7 +30,7 @@ const Login = () => {
 
     return (
         <div>
-            <div className="d-flex justify-content-center align-items-center text-center vh-100" style= {{backgroundColor: "#2F2F46"}}>
+            <div className="d-flex justify-content-center align-items-center text-center vh-100" style= {{backgroundColor: "#85C6D7"}}>
                 <div className="bg-white p-4 rounded" style={{width : '40%'}}>
                     <h2 className='mb-3 text-primary'>Login</h2>
                     <form onSubmit={handleSubmit}>

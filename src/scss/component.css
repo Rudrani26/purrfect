@@ -223,11 +223,6 @@ background-image {
     }
   }
 }
-/*PRODUCT PAGE*/
-
-/* SERVICE PAGE */
-
-/* CAREER PAGE */
 
 .career_life {
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
@@ -241,6 +236,12 @@ background-image {
 /* ABOUT PAGE */
 
 /* CONTACT PAGE */
+
+.contact {
+  .container {
+    margin-left: 6%;
+  }
+}
 
 form {
   input {

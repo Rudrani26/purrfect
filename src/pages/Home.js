@@ -1,5 +1,8 @@
 import React from "react";
-import product1 from "../images/products/99.png"
+import product1 from "../images/products/brand1.jpg"
+import product2 from "../images/products/brand2.jpg"
+import product3 from "../images/products/brand3.jpg"
+import product4 from "../images/products/brand4.jpg"
 
 const Home = () => {
 	return (
@@ -64,31 +67,39 @@ const Home = () => {
 			<div className="container mx-auto py-5">
 				<div className="mb-5 text-center">
 					<p className="display-6 mb-1">Brands We Trust</p>
-					<p className="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p className="text-muted">Quality You Can Rely On</p>
 				</div>
 				<div className="row gy-3 d-flex align-items-center justify-content-evenly">
 					<div className="col-md-3 text-center">
 						<div className="snip1534">
 							<img className="img-fluid" alt="product1"  src={product1} />
-							<div className="img_caption">
+							{/* <div className="img_caption">
 								<h6>Demo Product</h6>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className="col-md-3 text-center">
 						<div className="snip1534">
-							<img className="img-fluid" alt="product2" src={product1} />
-							<div className="img_caption">
+							<img className="img-fluid" alt="product2" src={product2} />
+							{/* <div className="img_caption">
 								<h6>Demo Product</h6>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className="col-md-3 text-center">
 						<div className="snip1534">
-							<img className="img-fluid" alt="product3" src={product1} />
-							<div className="img_caption">
+							<img className="img-fluid" alt="product3" src={product3} />
+							{/* <div className="img_caption">
 								<h6>Demo Product</h6>
-							</div>
+							</div> */}
+						</div>
+					</div>
+					<div className="col-md-3 text-center">
+						<div className="snip1534">
+							<img className="img-fluid" alt="product4" src={product4} />
+							{/* <div className="img_caption">
+								<h6>Demo Product</h6>
+							</div> */}
 						</div>
 					</div>
 				</div>
@@ -108,8 +119,8 @@ const Home = () => {
 			<div className="py-5">
 				<div className="container d-flex justify-content-center align-items-center">
 					<div className="col-12 col-md-9 col-lg-6 py-5 text-center">
-						<p className="display-6 mb-1">Work with an elite team of thinkers.</p>
-						<p className="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<p className="display-6 mb-1">We're here to help. </p>
+						<p className="text-muted">Feel free to reach out to us with any questions, comments, or feedback. Your input is important to us.</p>
 						<button className="btn p-2 btn_custom col-lg-3 col-md-5 col-6">GET IN TOUCH</button>
 					</div>
 				</div>
