@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Products from "./pages/Products";
+import Pricing from "./pages/pricing";
 import Navbar from "./pages/common/Navbar";
 import Footer from "./pages/common/Footer";
 import Health from "./pages/Health";
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/register" element ={<Register/>} />
         <Route path="/login" element ={<Login/>} />
         <Route path="/products" element ={<Products/>} />
+        <Route path="/pricing" element ={<Pricing/>} />
 
       </Routes>
       {/* <Home /> */}
