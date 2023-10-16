@@ -48,9 +48,12 @@ const Navbar = () => {
 				      <li className="nav-item">
 				        <NavLink exact className="nav-link" to="/service"><span className="d-lg-none d-xl-none mr-3"></span>Services</NavLink>
 				      </li>
-				      {/* <li className="nav-item">
-				        <NavLink exact className="nav-link" to="/career"><span className="d-lg-none d-xl-none mr-3"></span>Career</NavLink>
-				      </li> */}
+				      <li className="nav-item">
+				        <NavLink exact className="nav-link" to="/Health"><span className="d-lg-none d-xl-none mr-3"></span>Health</NavLink>
+				      </li>
+					  <li className="nav-item">
+				        <NavLink exact className="nav-link" to="/products"><span className="d-lg-none d-xl-none mr-3"></span>Products</NavLink>
+				      </li>
 				      <li className="nav-item">
 				        <NavLink exact className="nav-link" to="/about"><span className="d-lg-none d-xl-none mr-3"></span>About</NavLink>
 				      </li>
@@ -58,7 +61,7 @@ const Navbar = () => {
 				        <NavLink exact className="nav-link" to="/contact"><span className="d-lg-none d-xl-none mr-3"></span>Contact</NavLink>
 				      </li>
 					  <li className="nav-item">
-				        <NavLink exact className="nav-link" to="/signin"><span className="d-lg-none d-xl-none mr-3"></span>Sign IN</NavLink>
+				        <NavLink exact className="nav-link" to="/signin"><span className="d-lg-none d-xl-none mr-3"></span>Log In</NavLink>
 				      </li>
 
 				    </ul>
