@@ -85,7 +85,8 @@ background-image {
 }
 
 .hdrcolor {
-  color: #ff4c00;
+  color: #35354E;
+  font-weight: 800;
 }
 
 .btn_custom {
@@ -103,19 +104,15 @@ background-image {
   border: solid 1px #ececec !important;
 }
 
-.sec_bg {
+/* .sec_bg {
   background: rgba(0,0,0,.4);
-}
+} */
 
 .secondary_header {
   height: 300px;
   width: 100%;
 }
 
-/* .sec_hdr {
-  background-image: url("../images/22.jpg");
-  @include background-image;
-} */
 
 /* HOME PAGE */
 
@@ -178,8 +175,8 @@ background-image {
     vertical-align: top;
     max-width: 100%;
     backface-visibility: hidden;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
     opacity: 0.75;
     &:hover {
       opacity: 1;
@@ -214,6 +211,7 @@ background-image {
     }
   }
 }
+/*PRODUCT PAGE*/
 
 /* SERVICE PAGE */
 

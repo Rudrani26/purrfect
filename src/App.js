@@ -10,7 +10,7 @@ import Register from "./pages/Register";
 import Products from "./pages/Products";
 import Navbar from "./pages/common/Navbar";
 import Footer from "./pages/common/Footer";
-// import Career from "./pages/Career";
+import Health from "./pages/Health";
 import SignIn from "./pages/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -22,7 +22,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
-        {/* <Route path="/career" element={<Career />} /> */}
+        <Route path="/Health" element={<Health />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/register" element ={<Register/>} />

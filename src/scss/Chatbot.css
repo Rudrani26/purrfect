@@ -1,0 +1,39 @@
+/* Chatbot.css */
+.rsc-container {
+    border: 1px solid #ff6a00; 
+    background-color: #F4F4F4;
+    align-self: center;
+    margin-left: 120px;
+    width: 900px; 
+    height: 520px; 
+  }
+  
+  .rsc-header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    /* margin-top: 20px; */
+  }
+  .rsc-message {
+    color: #fafafa; 
+}
+  .rsc-closed {
+    display: none;
+  }
+  
+  .rsc-fa-icon {
+    color: #ff7b00;
+  }
+  
+  .rsc-fa-arrow {
+    color: #ff8400;
+  }
+  .rsc-ts-bubble {
+    background-color: #35354E; 
+    color: #ededed;
+}
+.rsc-ts-sender {
+  background-color: #F4717C !important;
+  color: #ededed !important;
+}
