@@ -27,21 +27,21 @@ const FlexCardsContainer = (props) => (
   imageSrc={foodimg}
   imageAlt="Pet Food"
   heading="Pet Food"
-  text="This is some text describing the card."
+  text="Nutrient-rich options to keep your pet healthy and happy."
   buttonText="Buy Now"
 />
 <FlexCard
   imageSrc={hygiene}
   imageAlt="Pet Hygiene"
   heading="Pet Hygiene"
-  text="This is some text describing the card."
+  text="Essential equipment for maintaining your pet's hygiene."
   buttonText="Buy Now"
 />
 <FlexCard
   imageSrc={accesso}
   imageAlt="Accessories"
   heading="Accessories"
-  text="This is some text describing the card."
+  text="Stylish and functional items to enhance your pet's comfort."
   buttonText="Buy Now"
 />
 
@@ -49,21 +49,21 @@ const FlexCardsContainer = (props) => (
   imageSrc={grooming}
   imageAlt="Pet Grooming"
   heading="Pet Grooming"
-  text="This is some text describing the card."
+  text=" Products to keep your pet clean and odor-free."
   buttonText="Buy Now"
 />
 <FlexCard
   imageSrc={toys}
   imageAlt="Toys"
   heading="Toys"
-  text="This is some text describing the card."
+  text="Fun and engaging toys to keep your pet entertained."
   buttonText="Buy Now"
 />
 <FlexCard
   imageSrc={beds}
   imageAlt="Pet Beds"
   heading="Beds & Storage"
-  text="This is some text describing the card."
+  text="Organizational solutions to keep all your pet essentials in one place."
   buttonText="Buy Now"
 />
   </div>
