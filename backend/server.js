@@ -8,8 +8,6 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://Rudrani26:RudC3825@cluster0.nfq7mjb.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp');
-
 app.post('/register', (req, res)=>{
     // To post / insert data into database
 
