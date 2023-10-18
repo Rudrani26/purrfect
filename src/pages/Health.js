@@ -26,7 +26,7 @@ const Positions = (props) => {
 				<p className="small text-muted">{props.pcity}</p>
 			</span>
 			<span>
-				<button className="btn btn_custom mr-4">Read</button>
+			<a href={props.buttonHref} className="btn btn_custom mr-4">Read</a>
 			</span>
 		</div>
 	);
@@ -52,12 +52,14 @@ const Health = () => {
 							<div className="hdrcolor h5">Dogs</div>
 							<hr width="40%" />
 							<Positions 
-								ptitle="Balanced Diet and Nutrient Intake"
+								ptitle="General Feeding Guidelines"
 								pcity="Reading Time: 10min"
+								buttonHref="https://vcahospitals.com/know-your-pet/nutrition-general-feeding-guidelines-for-dogs"
 							/>
 							<Positions 
 								ptitle="Common Food Allergies and Sensitivities"
 								pcity="Reading Time: 13min"
+								buttonHref="https://vcahospitals.com/know-your-pet/food-allergies-in-dogs#:~:text=The%20most%20common%20food%20allergens,can%20produce%20an%20allergy%2C%20however."
 							/>
 						</div>
 						<div className="col-md-5 mb-4 offset-lg-1">
@@ -66,10 +68,12 @@ const Health = () => {
 							<Positions 
 								ptitle="Proper Aquarium Diet"
 								pcity="Reading Time: 7min"
+								buttonHref="https://www.thesprucepets.com/feeding-your-aquarium-fish-1380920#:~:text=Live%20Food%3A%20Options%20include%20live,cucumber%2C%20zucchini%2C%20and%20spinach."
 							/>
 							<Positions 
 								ptitle="Water Quality Management"
 								pcity="Reading Time: 10min"
+								buttonHref="https://microaquaticshop.com.au/blogs/tips-and-tricks/aquarium-water-quality-management-guide"
 							/>
 						</div>
 						<div className="col-md-5">
@@ -78,10 +82,12 @@ const Health = () => {
 							<Positions 
 								ptitle="High Quality Cat Food"
 								pcity="Reading Time: 10min"
+								buttonHref="https://nap.nationalacademies.org/resource/10668/cat_nutrition_final.pdf"
 							/>
 							<Positions 
 								ptitle="Feeding Patterns"
 								pcity="Reading Time: 15min"
+								buttonHref="https://vcahospitals.com/know-your-pet/feeding-times-and-frequency-for-cats"
 							/>
 						</div>
 						<div className="col-md-5 offset-lg-1">
@@ -90,10 +96,12 @@ const Health = () => {
 							<Positions 
 								ptitle="Avian Nutrition"
 								pcity="Reading Time: 12min"
+								buttonHref="https://todaysveterinarynurse.com/nutrition/avian-nutrition/#:~:text=Protein%20and%20Amino%20Acids&text=Avian%20formulations%20must%20avoid%20an,Budgies%20also%20require%20glycine."
 							/>
 							<Positions 
 								ptitle="Pellet vs Seed Diets"
 								pcity="Reading Time: 10min"
+								buttonHref="https://www.thesprucepets.com/feeding-your-bird-seeds-or-pellets-390608#:~:text=Bird%20pellets%20are%20a%20type,to%20keep%20your%20bird%20healthy."
 							/>
 						</div>
 					</div>
