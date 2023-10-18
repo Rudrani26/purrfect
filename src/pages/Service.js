@@ -31,14 +31,14 @@ const Service = () => {
 
 			<Secheader 
 				sectitle="Services" 
-				secdesc="Lorem Ipsum is simply random text." 
+				// secdesc="Lorem Ipsum is simply random text." 
 			/>
 
 			<section> 
 				<div className="container mx-auto py-5">
 					<div className="mb-5 text-center">
-						<p className="display-6 mb-1">Services We Provide</p>
-						<p className="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<p className="display-6 mb-1">All The Services We Provide</p>
+						{/* <p className="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
 					</div>
 					<div className="row d-flex items-align-center justify-content-evenly">
 						{

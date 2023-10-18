@@ -19,19 +19,19 @@ const PricingPage = () => {
   // Define your pricing plans as an array of objects
   const plans = [
     {
-      name: 'Basic',
-      price: 1000,
-      features: ['Feature 1', 'Feature 2', 'Feature 3'],
+      name: 'Free Plan',
+      price: 0,
+      features: ['Pet Health and Nutrition Blogs', 'Training Content', 'Pet Profile Customization', 'Pet Community & Adoption'],
     },
     {
-      name: 'Standard',
-      price: 2000,
-      features: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4'],
+      name: 'Basic',
+      price: 349,
+      features: ['Includes all Free Plan features', 'Discount and Offers', 'Priority Support', 'Pet Events and Activities', 'Ad-Free Experience'],
     },
     {
       name: 'Premium',
-      price: 3000,
-      features: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4', 'Feature 5'],
+      price: 649,
+      features: ['Includes all Free Plan features', '24/7 Vet Consultations', 'Pet Health Tracking', 'Emergency Services', 'Pet Insurance Integration', 'Pet Events and Activities'],
     },
   ];
 

@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import product1 from "../images/products/brand1.jpg"
 import product2 from "../images/products/brand2.jpg"
 import product3 from "../images/products/brand3.jpg"
 import product4 from "../images/products/brand4.jpg"
+import pointLogo from "../images/products/pointLogo.jpg"
+
 
 const Home = () => {
 	return (
@@ -13,7 +16,7 @@ const Home = () => {
 					<div className="col-12 col-md-9 col-lg-9 py-5">
 						<h1 className="hdrcolor">Welcome to Purrfect</h1>
 						<p className="text-black lead">“An animal’s eyes have the power to speak a great language.” - Martin Buber</p>
-						<button className="btn btn-lg col-lg-3 col-6 btn_custom btn_shadow">Our Services</button>
+						<Link to="/service"><button className="btn btn-lg col-lg-3 col-6 btn_custom btn_shadow">Our Services</button></Link>
 					</div>
 				</div>
 			</div>
@@ -28,21 +31,21 @@ const Home = () => {
 				<div className="row gy-5 d-flex align-items-center justify-content-evenly mt-0">
 					<div className="col-md-4 col-lg-3 text-center">
 						<div className="box_border position-relative rounded pt-4 pb-3 px-3">
-							<div className="shp"></div>
+							<div className="shp"><img className="point" alt="logo" src={pointLogo} /></div>
 							<p className="mb-3 mt-4">Complete Pet Care Solutions</p>
 							<p className="text-muted text-left text-xl-center text-lg-center">Purrfect offers complete pet care solutions, including health guidance, training, and a variety of pet products.</p>
 						</div>
 					</div>
 					<div className="col-md-4 col-lg-3 text-center">
 						<div className="box_border position-relative rounded pt-4 pb-3 px-3">
-							<div className="shp"></div>
+							<div className="shp"><img className="point" alt="logo" src={pointLogo} /></div>
 							<p className="mb-3 mt-4">Enriching Pet and Owner Lives</p>
 							<p className="text-muted text-left text-xl-center text-lg-center">Our goal is to enrich pet and owner lives through adoption, vet appointments, and a thriving pet community.</p>
 						</div>
 					</div>
 					<div className="col-md-4 col-lg-3 text-center">
 						<div className="box_border position-relative rounded pt-4 pb-3 px-3">
-							<div className="shp"></div>
+							<div className="shp"><img className="point" alt="logo" src={pointLogo} /></div>
 							<p className="mb-3 mt-4">Simplified Pet Parenting</p>
 							<p className="text-muted text-left text-xl-center text-lg-center">We're committed to simplifying your pet parenting journey with a one-stop destination for all your furry friend's needs.</p>
 						</div>
@@ -121,7 +124,8 @@ const Home = () => {
 					<div className="col-12 col-md-9 col-lg-6 py-5 text-center">
 						<p className="display-6 mb-1">We're here to help. </p>
 						<p className="text-muted">Feel free to reach out to us with any questions, comments, or feedback. Your input is important to us.</p>
-						<button className="btn p-2 btn_custom col-lg-3 col-md-5 col-6">GET IN TOUCH</button>
+						<Link to="/contact"><button className="btn p-2 btn_custom col-lg-3 col-md-5 col-6">GET IN TOUCH</button></Link>
+						
 					</div>
 				</div>
 			</div>

@@ -105,6 +105,11 @@ background-image {
   border: solid 3px #ececec !important;
 }
 
+.point {
+  width: 30px;
+  margin-bottom: 20px;
+}
+
 .sec_2 {
   background: #F4717C;
 
@@ -132,7 +137,7 @@ background-image {
   
   .header_height {
     height: 100vh;
-    background-color: #FEFAEF;
+    background-image: linear-gradient(#ececec,#F4717C);
   }
 
   .text-black {
@@ -263,23 +268,27 @@ form {
 .pricing-page {
   text-align: center;
   padding: 20px;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 90px;
+  margin-bottom: 0px;
+  background-image: linear-gradient(#ececec,#F4717C);
+  height: 900px;
+
 }
 
 .pricing-plans {
   display: flex;
   justify-content: center;
   gap: 50px;
+  
 }
 
 /* CSS for the Pricing Plan Component */
 .pricing-plan {
-  border: 1px solid #ccc;
+  border: 2px solid #383535;
   padding: 20px;
   text-align: center;
   border-radius: 5px;
-  width: 250px;
+  width: 300px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -288,6 +297,13 @@ form {
   margin: 0;
   padding: 20px 0;
 }
+/* 
+.pricing-plan h1 {
+    margin-top: 0;
+    margin-bottom: 3.5 rem;
+    font-weight: 600;
+    line-height: 3;
+} */
 
 .pricing-plan .price {
   font-size: 20px;

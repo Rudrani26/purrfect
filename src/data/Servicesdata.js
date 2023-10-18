@@ -11,7 +11,7 @@ const Data = [
 		// scardimage: marketing,
 		scardtitle : "Training & Behavior",
 		scarddesc: "Unlock the secrets of pet behavior, explore insightful blogs, and find training tips.",
-		to: "/",
+		to: "",
 	},
 
 	{
@@ -25,7 +25,7 @@ const Data = [
 		// scardimage: product,
 		scardtitle : "Pet Adoption",
 		scarddesc: " Discover the joy of adoption, explore about adorable pets in need of a home.",
-		to: "/",
+		to: "http://localhost:3002/",
 	},
 
 	{
